@@ -1,5 +1,5 @@
 pub fn main() {
-    let (f, d) = include_str!("../input.txt")
+    let (f, d) = include_str!("../../input.txt")
         .lines()
         .map(|l| l.split_once(" ").unwrap())
         .fold((0, 0), |(f, d), (k, v)| {
